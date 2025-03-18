@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: #374c98;
+}
+:root {
+  --bs-blue: #374c98;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #eb62d0;
+  --bs-red: #ee3232;
+  --bs-orange: #ff9900;
+  --bs-yellow: #fffa6f;
+  --bs-green: #297f00;
+  --bs-teal: #20c997;
+  --bs-cyan: #3065d0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #4d44b5;
+  --bs-secondary: #fb7d5b;
+  --bs-success: #1eba62;
+  --bs-info: #00ada3;
+  --bs-warning: #fcc43e;
+  --bs-danger: #fd5353;
+  --bs-light: #ebebf9;
+  --bs-dark: #303972;
+  --bs-primary-rgb: 77, 68, 181;
+  --bs-secondary-rgb: 251, 125, 91;
+  --bs-success-rgb: 30, 186, 98;
+  --bs-info-rgb: 0, 173, 163;
+  --bs-warning-rgb: 252, 196, 62;
+  --bs-danger-rgb: 253, 83, 83;
+  --bs-light-rgb: 235, 235, 249;
+  --bs-dark-rgb: 48, 57, 114;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 160, 152, 174;
+  --bs-body-bg-rgb: 230, 235, 238;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --bs-body-font-family: Poppins, sans-serif;
+  --bs-body-font-size: 0.875rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #a098ae;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
